@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 
 namespace Healthdesk
-{ 
+{
     public partial class HISTORIAL : Form
     {
         SqlConnection con = ConexionBD.ObtenerConexion();
@@ -39,6 +39,18 @@ namespace Healthdesk
             con.Close();
 
         }
-        
+
+        private void dgvConsulta_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+             int IDPaciente;
+                int rowindex = dgvConsulta.CurrentCell.RowIndex;
+
+                IDPaciente = Convert.ToInt32(dgvConsulta.Rows[rowindex].Cells["CITA"].Value.ToString());
+
+
+                new Atender(IDPaciente).ShowDialog();
+         
+        }
+           
     }
 }

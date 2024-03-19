@@ -83,11 +83,11 @@
             // txtContraseña
             // 
             this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContraseña.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtContraseña.Font = new System.Drawing.Font("Yu Gothic UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtContraseña.Location = new System.Drawing.Point(554, 305);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PlaceholderText = "Contraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(200, 22);
+            this.txtContraseña.Size = new System.Drawing.Size(200, 20);
             this.txtContraseña.TabIndex = 3;
             // 
             // pictureBox1

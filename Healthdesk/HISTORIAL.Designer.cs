@@ -80,6 +80,7 @@
             this.dgvConsulta.RowTemplate.Height = 25;
             this.dgvConsulta.Size = new System.Drawing.Size(627, 385);
             this.dgvConsulta.TabIndex = 1;
+            this.dgvConsulta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvConsulta_CellContentClick);
             // 
             // Editar
             // 
