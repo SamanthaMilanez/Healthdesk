@@ -148,6 +148,7 @@
             this.lblMed.Size = new System.Drawing.Size(44, 15);
             this.lblMed.TabIndex = 10;
             this.lblMed.Text = "lblMed";
+            this.lblMed.Visible = false;
             // 
             // RevisarCitas
             // 
