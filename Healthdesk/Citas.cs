@@ -19,7 +19,7 @@ namespace Healthdesk
             InitializeComponent();
            
           
-
+            //COMMENTAAAARIO
             dgvCitas.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
             dgvCitas.EnableHeadersVisualStyles = false;
 
